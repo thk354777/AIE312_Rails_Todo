@@ -1,0 +1,11 @@
+<h1>Completed Tasks</h1>
+
+<% if @completed_tasks.present? %>
+  <ul>
+    <% @completed_tasks.each do |task| %>
+      <li><%= task.name %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No completed tasks found.</p>
+<% end %>
