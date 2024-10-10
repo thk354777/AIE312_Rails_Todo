@@ -13,3 +13,103 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+ .todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  div {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #4169e1;
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: #4169e1;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab:hover, .tab.active {
+    border-bottom: 2px solid #4169e1;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #4169e1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .task p {
+    margin: 0;
+  }
+  
+  .task-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .complete-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .complete-btn {
+    color: #28a745;
+  }
+  
+  .delete-btn {
+    color: #dc3545;
+  }
+  
